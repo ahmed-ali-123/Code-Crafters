@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /contactform/
+Disallow: /lib/
+Disallow: /css/
+Disallow: /js/
+
+Sitemap: https://codecrafters.com/sitemap.xml
+
+# Code Crafters - Premium Web Development Services
+# Contact: saqibrazzak85@gmail.com

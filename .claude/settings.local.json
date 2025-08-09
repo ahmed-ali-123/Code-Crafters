@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:corleeandco.com)",
+      "WebFetch(domain:trendsjoy.vercel.app)",
+      "WebFetch(domain:outscape.live)",
+      "WebFetch(domain:behindtext.vercel.app)"
+    ],
+    "deny": []
+  }
+}

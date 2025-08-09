@@ -592,6 +592,9 @@ h6 {
   font-weight: 600;
   font-size: 24px;
 }
+#about .about-paragraph {
+  padding-bottom: 0 !important;
+}
 
 /* Services Section
 --------------------------------*/
@@ -1467,4 +1470,323 @@ h6 {
     align-items: center;
     justify-content: center;
   }
+}
+
+/* Custom Styles for Code Crafters */
+
+/* Main heading - white color and bold */
+.main-heading {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+/* About heading and paragraph - center aligned */
+#about .section-header h2 {
+  text-align: center !important;
+}
+
+.about-paragraph {
+  text-align: center !important;
+}
+
+/* Services heading - center aligned */
+.services-heading {
+  text-align: center !important;
+}
+
+/* Why Choose heading - white, bold and center */
+.why-choose-heading {
+  color: white !important;
+  font-weight: bold !important;
+  text-align: center !important;
+}
+
+/* Contact heading - bold and center */
+.contact-heading {
+  font-weight: bold !important;
+  text-align: center !important;
+}
+
+/* Contact info rows - Simple and clean */
+.contact-info-rows {
+  margin-bottom: 20px;
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 4px 0;
+}
+
+.contact-row i {
+  font-size: 16px;
+  color: #007bff;
+  margin-right: 12px;
+  width: 18px;
+  text-align: center;
+}
+
+.contact-row span {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.contact-row a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-row a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+
+
+/* Testimonials Section - Sleek & Modern 3-Card Layout */
+#testimonials {
+  padding: 80px 0;
+}
+
+.testimonials-heading {
+  text-align: center !important;
+  font-weight: bold !important;
+  margin-bottom: 20px !important;
+}
+
+#testimonials .row {
+  margin-bottom: 0;
+}
+
+#testimonials .row > [class*="col-"] {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+
+.testimonial-card {
+  background: #fff;
+  padding: 25px 20px 20px 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f0f0f0;
+  transition: all 0.3s ease;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(0, 123, 255, 0.1);
+  border-color: #007bff;
+}
+
+.client-name {
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+}
+
+.client-position {
+  color: #666;
+  font-size: 13px;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 18px;
+}
+
+.testimonial-message {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-style: italic;
+  flex-grow: 1;
+}
+
+.testimonial-stars {
+  display: flex;
+  gap: 3px;
+  margin-top: auto;
+}
+
+.testimonial-stars i {
+  color: #ffc107;
+  font-size: 14px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  #testimonials .row > [class*="col-"] {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .testimonial-card {
+    padding: 20px 15px 15px 15px;
+  }
+  
+  .client-name {
+    font-size: 15px;
+  }
+  
+  .client-position {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-message {
+    font-size: 13px;
+    margin-bottom: 12px;
+  }
+  
+  .testimonial-stars i {
+    font-size: 13px;
+  }
+}
+
+/* Projects Section Styles */
+#projects {
+  padding: 80px 0;
+}
+
+#projects .section-header h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.project-header h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.project-header h3 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.project-header h3 a:hover {
+  color: #007bff;
+}
+
+.project-type {
+  background: #007bff;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.project-description {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.project-tech {
+  margin-bottom: 20px;
+}
+
+.tech-tag {
+  display: inline-block;
+  background: #f8f9fa;
+  color: #495057;
+  padding: 4px 10px;
+  border-radius: 15px;
+  font-size: 11px;
+  font-weight: 500;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #dee2e6;
+}
+
+.project-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.project-link:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.project-link::after {
+  content: " →";
+  margin-left: 5px;
+  transition: margin-left 0.3s ease;
+}
+
+.project-link:hover::after {
+  margin-left: 10px;
+}
+
+/* Projects grid spacing */
+#projects .row {
+  margin: 0 -10px;
+}
+
+#projects .row > [class*="col-"] {
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+/* Responsive adjustments for projects */
+@media (max-width: 768px) {
+  .project-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-type {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  #projects .row {
+    margin: 0 -5px;
+  }
+
+  #projects .row > [class*="col-"] {
+    padding: 0 5px;
+    margin-bottom: 15px;
+  }
+  
 }
